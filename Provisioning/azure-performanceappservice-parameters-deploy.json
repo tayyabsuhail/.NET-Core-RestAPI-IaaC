@@ -1,0 +1,33 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "subscriptionId": {
+            "value": "033091f8-4957-4e19-9b02-bd48cef0d2c0"
+        },
+        "name": {
+            "value": "catalogapiperformance"
+        },
+        "location": {
+            "value": "South Central US"
+        },
+        "hostingPlanName": {
+            "value": "DefaultAppServicePlan"
+        },
+        "serverFarmResourceGroup": {
+            "value": "Default"
+        },
+        "alwaysOn": {
+            "value": false
+        },
+        "currentStack": {
+            "value": "dotnetcore"
+        },
+        "phpVersion": {
+            "value": "OFF"
+        },
+        "errorLink": {
+            "value": "https://catalogapiperformance.scm.azurewebsites.net/detectors?type=tools&name=eventviewer"
+        }
+    }
+}
